@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /cgi-bin/
+Disallow: /podcast/
+Disallow: /stats/

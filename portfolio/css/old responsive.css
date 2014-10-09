@@ -1,0 +1,301 @@
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+		/* Banner Styles */
+		.banner {  
+			/* padding:0; */
+			padding:40px 20px;		 
+		}
+		
+		.banner-head { 
+			font-size:2.5em;
+		}
+
+		/* Work Item Styles */		
+		.l-box-left, .l-box-right { 
+			padding:20px;
+		}
+		
+		.caption-inner  {
+			padding:45px 0 0 0;
+		}
+		
+		.caption-inner h3 { 
+			font-size:1em;
+		}
+		
+		#menu {
+			width:1.4em;
+			display: block;
+			font-size:1.5em;
+			text-align: center;
+			float:right;
+			margin-top:25px;
+			padding-right:15px;
+			color:#d1d0d0;
+		}
+	
+		#menu:hover { 
+			cursor:pointer;
+		}
+		#nav.js {
+			display: none;
+		}
+		ul#nav {
+			width:100%;
+			background: white;
+			height: auto;
+			z-index: 1000;
+			position: absolute;
+			top: 83px;
+			border-top:1px solid #f2f2f2;	
+			border-bottom:1px solid #f2f2f2;
+		}	
+		ul#nav li {
+			width:96%;
+			margin:0 2%;
+			border-right:none;
+			padding:0;
+		}
+		
+		ul#nav li a { 
+			padding:10px;
+			
+		}
+		
+		ul#nav li:first-child  {
+			padding-top:10px;
+		}
+	
+		ul#nav li:last-child  {
+			padding-bottom:20px;
+			padding-top:10px;
+		}
+
+		
+		
+	  	/* Footer Styles */
+  	
+  	.footer { 
+	  	padding:20px;
+	  	height:auto;
+  	}
+  		
+
+}
+
+
+/*
+ * -- TABLET MEDIA QUERIES --
+ * On tablets, we want to slightly adjust the size of the banner
+ * text and add some vertical space between the various pricing tables
+ */
+@media (max-width: 767px) { 
+
+		/* Main Nav */
+		.pure-menu.pure-menu-horizontal > ul { 
+			/* display:none; */
+		}
+
+		/* Banner Styles */
+		.banner { 
+			/* padding:0; */
+			padding:40px 20px;
+		}
+		
+		.banner-head { 
+			font-size:2.5em;
+		}
+
+
+		#menu {
+			width:1.4em;
+			display: block;
+			font-size:1.5em;
+			text-align: center;
+			float:right;
+			margin-top:25px;
+			padding-right:15px;
+			color:#d1d0d0;
+		}
+	
+		#menu:hover { 
+			cursor:pointer;
+		}
+		#nav.js {
+			display: none;
+		}
+		ul#nav {
+			width:100%;
+			background: white;
+			height: auto;
+			z-index: 1000;
+			position: absolute;
+			top: 83px;
+			border-top:1px solid #f2f2f2;	
+			border-bottom:1px solid #f2f2f2;
+		}	
+		ul#nav li {
+			width:94%;
+			margin:0 2%;
+			border-right:none;
+			padding:0;
+		}
+		
+		ul#nav li a { 
+			padding:10px;
+			
+		}
+		
+		ul#nav li:first-child  {
+			padding-top:10px;
+		}
+	
+		ul#nav li:last-child  {
+			padding-bottom:20px;
+			padding-top:10px;
+		}
+
+  	/* Page Nav Styles */
+  	.page-nav { 
+	  	margin-top:50px;
+	  	margin-bottom:100px;
+  	}
+   	
+		/* Work Styles*/
+   	.tile li { 
+    	width:50% !important;
+  	}
+  	
+		/* Work Item Styles */		
+		.l-box-left, .l-box-right { 
+			padding:20px;
+		}
+		
+  	/* Footer Styles */
+  	
+  	.footer { 
+	  	padding:20px;
+	  	height:auto;
+  	}
+  	
+  	
+  	
+
+}
+
+/*
+ * -- PHONE MEDIA QUERIES --
+ * On phones, we want to reduce the height and font-size of the banner further
+ */
+@media (max-width: 480px) { 
+
+		/* Main Nav */
+		.pure-menu.pure-menu-horizontal > ul { 
+		 /* 	display:none; */
+		}
+		
+		
+		/* Banner Styles */
+		.banner { 
+		/* 	padding:0; */
+			padding:40px 20px;
+
+		}
+		
+		.banner-head { 
+			font-size:1.5em;
+		}
+		
+
+		#menu {
+			width:1.4em;
+			display: block;
+			font-size:1.5em;
+			text-align: center;
+			float:right;
+			margin-top:25px;
+			padding-right:15px;
+			color:#d1d0d0;
+		}
+	
+		#menu:hover { 
+			cursor:pointer;
+		}
+		#nav.js {
+			display: none;
+		}
+		ul#nav {
+			width:100%;
+			background: white;
+			height: auto;
+			z-index: 1000;
+			position: absolute;
+			top: 83px;
+			border-top:1px solid #f2f2f2;	
+			border-bottom:1px solid #f2f2f2;
+		}	
+		ul#nav li {
+			width:90%;
+			margin:0 5%;
+			border-right:none;
+			padding:0;
+		}
+		
+		ul#nav li a { 
+			padding:10px;
+			
+		}
+		
+		ul#nav li:first-child  {
+			padding-top:10px;
+		}
+	
+		ul#nav li:last-child  {
+			padding-bottom:20px;
+			padding-top:10px;
+		}
+
+		/* Work Styles*/
+   	.tile li { 
+    	width:100% !important;
+  	}
+
+		/* Work Item Styles */		
+		.l-box-left, .l-box-right { 
+			padding:20px;
+		}
+  	
+  	
+  	/* Page Nav Styles */
+  	.page-nav { 
+	  	margin-top:50px;
+	  	margin-bottom:100px;
+  	}
+   	
+  	
+  	/* Footer Styles */
+  	
+  	.footer { 
+	  	padding:20px;
+	  	height:auto;
+  	}
+  	
+  	.footer ul {
+	  	float:left;
+	  	padding:0;
+	  	margin:0 0 20px 0;
+  	}
+  	
+  	.footer ul li {
+	  	display:block;
+	  	float:left;
+	  	width:100%;
+	  	margin-left:0;
+  	}
+  	
+  	
+    
+}
+

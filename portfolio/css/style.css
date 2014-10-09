@@ -1,0 +1,586 @@
+/*
+	Style.CSS (C)2014
+ */
+body {
+    color: #959595;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+h1{
+    font-family: 'Droid Serif', serif;
+    font-size: 3em;
+    color: #424244;
+}
+
+h2{
+    font-size: 1.5em;
+    letter-spacing: 0.10em;
+    color: #959595;
+    /* font-weight: 600; */
+}
+
+h3 {
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h4 {
+    letter-spacing: 0.01em;
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+/* .pure-g {
+    letter-spacing: normal;
+} */
+
+a {
+    -webkit-transition: all,0.3s;
+    -moz-transition: all,0.3s;
+    transition: all,0.3s;
+    color: #50BED9;
+}
+
+.blur { 
+	 -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.btn-blue {
+    background: #50bfd6;
+    -webkit-box-shadow: 0 3px 0 0 #44a2b6;
+    -moz-box-shadow: 0 3px 0 0 #44a2b6;
+    box-shadow: 0 3px 0 0 #44a2b6;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    border: none;
+    color: white;
+    -webkit-transition: all,0.3s;
+    -moz-transition: all,0.3s;
+    -ms-transition: all,0.3s;
+    -o-transition: all,0.3s;
+    transition: all,0.3s;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.btn-blue:hover {
+    background: #48aabe;
+    border: none;
+    color: white;
+}
+
+.btn-medium {
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+
+
+/*
+ * -- Layout Styles --
+ */
+.l-content {
+    margin: 0 auto;
+}
+
+.l-box {
+    padding: 0.5em 2em;
+}
+
+.l-box-left {
+    padding: 0.5em 2em 0.5em 0;
+}
+
+.l-box-right {
+    padding: 0.5em 0 0.5em 2em;
+}
+
+/*
+ * -- MENU STYLES --
+ * Make the menu have a very faint box-shadow.
+ */
+
+
+.brand {
+    background-color: #ffa500;
+}
+
+.brand:hover {
+    background-color: #2D3135;
+}
+
+.brand img {
+    width: 50px;
+    height: 50px;
+    padding: 15px 15px;
+	/* -webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px; */;
+}
+
+.pure-menu {
+    max-width: 980px;
+    margin: 0 auto;
+    height: auto;
+    background: RGB(46, 50, 54);
+	
+}
+
+.pure-menu.pure-menu-open, .pure-menu.pure-menu-horizontal li .pure-menu-children {
+    background: RGB(46, 50, 54) !important;
+}
+
+.pure-menu.pure-menu-horizontal, .pure-menu.pure-menu-horizontal .pure-menu-heading {
+    border: 0px;
+    clear: both;
+}
+
+.pure-menu a, .pure-menu .pure-menu-heading {
+	/* padding:5px 0; */;
+}
+
+.pure-menu .pure-menu-heading {
+    float: left;
+    padding: 0;
+    line-height: inherit;
+    height: auto;
+}
+
+.pure-menu.pure-menu-horizontal > ul {
+    float: right;
+}
+
+.pure-menu.pure-menu-horizontal > ul li {
+	font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    float: left;
+    margin-left: 26px;
+    letter-spacing: 1px;
+    list-style: none;
+    letter-spacing: 1px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.pure-menu li a {
+    padding: 5px 10px;
+
+}
+
+.pure-menu li a:hover, .pure-menu li a:focus {
+    color: #ff6633;
+    background: none;
+}
+
+.get-in-touch:hover {
+    color: #ffa500 !important;
+    border: 1px solid #ffa500 !important;
+	background: #ffffff !important;
+
+}
+
+.get-in-touch {
+    background: #ffa500 !important;
+    color: #fff !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#menu {
+    display: none;
+}
+
+/*
+ * -- BANNER --
+ * The top banner with the headings. By using a combination
+ * of `display: table;` and `display: table-cell;`, we can
+ * vertically center the text.
+ */
+
+.banner {
+    background: #fff;
+    background-size: cover;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 15px;
+    height: auto;
+    width: auto;
+    display: block;
+    clear: both;
+}
+
+.banner-head {
+    margin: 0;
+    font-weight: 300;
+    
+}
+
+.banner-back {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fd0000;
+    opacity: 0.5;
+}
+
+.banner-back:hover {
+    opacity: 1;
+}
+
+
+/* Work Styles */
+.work {
+    overflow: hidden;
+    position: relative;
+}
+
+.tile {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tile li {
+    display: block;
+    position: relative !important;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    width: 25%;
+    text-align: center;
+    margin-bottom: -4px;
+	border: 10px;
+}
+
+.tile img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(34, 34, 34, 0.9);
+    width: 100%;
+    height: 99%;
+    color: #fff;
+    z-index:1000;
+}
+
+.caption-inner {
+    padding-top:25%;
+    width: 100%;
+}
+
+.caption h3 { 
+	font-size:18px;
+}
+.caption p { 
+	font-size:12px;
+	text-transform: uppercase;
+	margin:0 0 30px 0;
+	letter-spacing: 2px;
+}
+
+.caption h3, .caption p {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.caption .underline {
+    margin-bottom: 30px;
+}
+
+.caption .underline:after {
+    content: "";
+    position: absolute;
+    top: 170%;
+    left: 45%;
+    right: 45%;
+    border-top: 3px solid #fff;
+}
+
+.caption .divider { 
+	margin:0 auto 20px auto;
+	border-top: 3px solid #fff;
+	width: 20px;	
+}
+
+
+.caption a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.caption a:hover {
+    background: #fff;
+    color: #333;
+}
+
+.callout {
+    text-align: center;
+    padding-top: 30px; 
+	padding-bottom: 50px;
+    color: #fff;
+	font-family: 'Droid Sans', sans-serif;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.callout h3 {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.callout h3.underline:after {
+    content: "";
+    position: absolute;
+    top: 170%;
+    left: 48%;
+    right: 48%;
+    border-top: 3px solid #fff;
+    opacity: 0.5;
+}
+
+.callout p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.bottom {
+    background: #ffa500;
+}
+
+.section {
+    /* background: #5dbe5a; */
+  background: linear-gradient(to bottom, #80e079 0%, #5dbe5a 10%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+/* Work Item Styles */
+
+.work-item {
+    padding: 40px 0;
+}
+
+
+.sidebar dt {
+    color: #c3c2c2;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.sidebar dd {
+    font-size: 14px;
+    color: #959595;
+    margin: 1em 0 3em 0;
+    line-height: 1.6em;
+}
+
+.page-nav { 
+	border-top:1px solid #f2f2f2;
+	margin-top:100px;
+}
+
+.page-nav ul  {
+	display:block;
+	list-style: none;
+	padding:0;
+	margin:0;
+	float:left;
+}
+.page-nav ul li  {
+	float:left;
+}
+
+.page-nav ul li a {
+	padding:10px 15px;
+	background:#f2f2f2;
+	color:#959595;
+	font-size:12px;
+	text-decoration: none;
+	display:block;
+	border-left: 1px solid #fff;
+}
+
+.page-nav ul li a:hover { 
+	background:#ededed;
+}
+
+
+.browser {
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, .1);
+}
+
+.browser + p {
+    margin: 10px 0 60px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.browser-top {
+    border-radius: 3px 3px 0 0;
+    height: 21px;
+    font-size: 1px;
+    background-color: #e0e0e0;
+    line-height: 26px;
+}
+
+.browser-circle {
+    display: inline-block;
+    height: 21px;
+    font-size: inherit;
+    margin-left: 5px;
+}
+
+.browser-circle:first-child {
+    margin-left: 10px;
+}
+
+.browser-circle:before {
+    content: "\25cf";
+    font-size: 12px;
+    line-height: 20px;
+    color: #f2f2f2;
+}
+
+.browser-body {
+    width: 100%;
+    height: auto;
+    max-height: 95%;
+    background-color: #ffff;
+}
+
+
+.information {
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+.footer {
+	font-family: 'Droid Sans', sans-serif;
+    background: #FFF;
+    color: #888;
+    font-size: 11px;
+    border-top: 1px solid #f2f2f2;
+    padding:20px 0;
+    overflow: hidden;
+}
+
+.footer p {
+    display: block;
+    float: right;
+}
+
+.footer a {
+    color: #ddd;
+}
+
+.footer ul {
+    float: right;
+    list-style: none;
+}
+
+.footer li {
+    float: left;
+    text-transform: uppercase;
+    list-style: none;
+    letter-spacing: 1px;
+    margin-left: 26px;
+}
+
+.footer li a {
+    text-decoration: none;
+    line-height: 1.6em;
+} 
+
+#macbook {
+  /* background: url(../img/macbook.png); */
+  width: 1000px;
+  height: 526px;
+ /* margin-bottom: -28px;
+  margin-left: -50px;
+*/
+}
+.jumbotron {
+  background: linear-gradient(to bottom, #80e079 0%, #5dbe5a 10%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  /* background: linear-gradient(to bottom, #ffc330 0%, #ffa500 100%) repeat scroll 0 0 rgba(0, 0, 0, 0); */
+  /* background: url(../img/wild_oliva.png); */
+  color: #fff;
+  padding: 0;
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.jumbotron h1 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2.4em;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px #000;
+  margin: 0.7em 0;
+}
+.jumbotron h2 {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.4em;
+  margin-bottom: 1.4em;
+}
+.jumbotron .btn {
+  box-shadow: 1px 1px 3px #000;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0.3em 2.5em 0.5em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.jumbotron .btn .glyphicon {
+  margin-left: 0.2em;
+  position: relative;
+  top: 3px;
+}
+
+#tour {
+  margin: 0 auto;
+  width: 688px;
+  height: 512px;
+  position: relative;
+  /* top: 24px; */
+  left: 2px;
+}
+#tour .carousel-inner img {
+  background: #111;
+  height: 512px;
+  /* width: 688px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
